@@ -14,7 +14,7 @@ void wag_tail(int speed){
     servo.write(i);
     delay(speed);
   }
-  for(int i=45; i<=145; i++){
+  for(int i=35; i<=145; i++){
     if(button_press()) return;
     servo.write(i);
     delay(speed);
